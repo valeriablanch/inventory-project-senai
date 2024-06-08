@@ -25,7 +25,9 @@ public class ProductTester {
     }
 }
 
-/* public class ProductTester {
+/*
+
+public class ProductTester {
     public static void main(String[] args) {
 
         Product product1 = new Product();
@@ -60,4 +62,5 @@ public class ProductTester {
 
     }
 }
+
  */
