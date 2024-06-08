@@ -23,8 +23,7 @@ public class Product {
         this.priceOfEachUnit = price;
     }
 
-// getter and setter for numberOfItemId
-
+// getter and setter for itemId
     public int getItemId() {
         return itemId;
     }
@@ -34,7 +33,6 @@ public class Product {
     }
 
 // getter and setter for itemName
-
     public String getItemName() {
         return itemName;
     }
@@ -44,7 +42,6 @@ public class Product {
     }
 
 // getter and setter for numberOfUnitsInStock
-
     public int getNumberOfUnitsInStock() {
         return numberOfUnitsInStock;
     }
@@ -55,7 +52,6 @@ public class Product {
     }
 
 // getter and setter for priceOfEachUnit
-
     public double getPriceOfEachUnit() {
         return priceOfEachUnit;
     }
@@ -65,7 +61,6 @@ public class Product {
     }
 
 // overriding the toString method
-
     @Override
     public String toString() {
         return "Item number: " + itemId + "\n" +
